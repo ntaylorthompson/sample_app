@@ -6,16 +6,19 @@ gem 'rails', '3.2.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'gravatar_image_tag'
 
 # Gems required in Book
 
 group :development do
   gem 'rspec-rails'
+  gem 'annotate'
 end
 
 group :test do
   gem 'rspec'
   gem 'webrat'
+  gem 'factory_girl_rails'
 end
 
 
